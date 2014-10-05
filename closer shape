@@ -1,0 +1,19 @@
+import javax.swing.*;
+import javax.swing.JFrame;
+import java.awt.Graphics;
+import java.awt.Color;
+import javax.swing.JPanel;
+
+public class SimpleGraphicsApplet extends JApplet {
+
+	public void paint(Graphics g) {
+		
+		g.drawLine(50, 0, 20, 50);
+		g.drawLine(50, 0, 80, 50);
+		g.drawLine(20, 50, 80, 50);
+		
+		
+		
+	
+	}
+}
